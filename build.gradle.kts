@@ -86,8 +86,8 @@ publishing {
         register("release", MavenPublication::class) {
             from(components["java"])
             pom {
-                name = "monstera"
-                description = "A library and environment designed to streamline the development of Minecraft addons."
+                name = "monstera-stdlib"
+                description = "Additional functionality to monstera."
                 url = "https://github.com/LotsOfPixelsStudios/monstera-stdlib"
                 developers {
                     developer {
