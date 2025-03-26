@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "format_version": "4.9",
+    "model_format": "bedrock",
+    "box_uv": true
+  },
+  "name": "test.geo",
+  "model_identifier": "test.loc",
+  "visible_box": [
+    2,
+    1.5,
+    0.25
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "bedrock_animation_mode": "entity",
+  "timeline_setups": [],
+  "unhandled_root_fields": {},
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cube",
+      "box_uv": true,
+      "rescale": false,
+      "locked": false,
+      "render_order": "default",
+      "allow_mirror_modeling": true,
+      "from": [
+        -1,
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        2,
+        1
+      ],
+      "autouv": 1,
+      "color": 3,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            4,
+            4
+          ]
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            4
+          ]
+        },
+        "south": {
+          "uv": [
+            6,
+            2,
+            8,
+            4
+          ]
+        },
+        "west": {
+          "uv": [
+            4,
+            2,
+            6,
+            4
+          ]
+        },
+        "up": {
+          "uv": [
+            4,
+            2,
+            2,
+            0
+          ]
+        },
+        "down": {
+          "uv": [
+            6,
+            0,
+            4,
+            2
+          ]
+        }
+      },
+      "type": "cube",
+      "uuid": "0395f195-7159-66cd-53bf-9d0a52d8fce5"
+    },
+    {
+      "name": "locator",
+      "position": [
+        0.5209445330007907,
+        2.9291477584951267,
+        0.3856296182084057
+      ],
+      "rotation": [
+        7.387326251353845,
+        1.2987564674723155,
+        -9.916153852740758
+      ],
+      "ignore_inherited_scale": false,
+      "visibility": true,
+      "locked": false,
+      "uuid": "60da40d4-43dc-fb98-2ec0-a9fe334c4d3f",
+      "type": "locator"
+    }
+  ],
+  "outliner": [
+    "0395f195-7159-66cd-53bf-9d0a52d8fce5",
+    "60da40d4-43dc-fb98-2ec0-a9fe334c4d3f"
+  ],
+  "textures": []
+}

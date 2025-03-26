@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.monstera.std-lib.vehicle.driving": {
+      "loop": true,
+      "bones": {
+        "front_left_wheel": {
+          "rotation": ["variable.driving_speed*variable.wheel_size*10", 0, 0]
+        },
+        "front_right_wheel": {
+          "rotation": ["variable.driving_speed*variable.wheel_size*10", 0, 0]
+        },
+        "back_left_wheel": {
+          "rotation": ["variable.driving_speed*variable.wheel_size*10", 0, 0]
+        },
+        "back_right_wheel": {
+          "rotation": ["variable.driving_speed*variable.wheel_size*10", 0, 0]
+        },
+        "front_wheels": {
+          "rotation": ["variable.driving_speed*variable.wheel_size*10", 0, 0]
+        },
+        "back_wheels": {
+          "rotation": ["variable.driving_speed*variable.wheel_size*10", 0, 0]
+        }
+      }
+    }
+  }
+}

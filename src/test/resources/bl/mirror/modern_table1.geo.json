@@ -1,0 +1,254 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.modern_table1",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [
+          0,
+          0.75,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "table",
+          "pivot": [
+            0,
+            0,
+            -0.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                10.5,
+                3.5,
+                -15
+              ],
+              "size": [
+                2,
+                23,
+                30
+              ],
+              "pivot": [
+                11.5,
+                15,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                -90
+              ],
+              "uv": [
+                0,
+                9
+              ],
+              "mirror": true
+            },
+            {
+              "origin": [
+                -23,
+                14,
+                -15
+              ],
+              "size": [
+                2,
+                23,
+                30
+              ],
+              "pivot": [
+                -22,
+                15,
+                0
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "uv": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg2",
+          "parent": "table",
+          "pivot": [
+            22,
+            13.8,
+            14
+          ],
+          "rotation": [
+            0,
+            0,
+            12.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                21,
+                -0.68668,
+                12.69495
+              ],
+              "size": [
+                2,
+                15,
+                2
+              ],
+              "pivot": [
+                22,
+                10.31332,
+                13.69495
+              ],
+              "rotation": [
+                -90,
+                85,
+                -90
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "leg",
+          "parent": "table",
+          "pivot": [
+            -22,
+            13.8,
+            14
+          ],
+          "rotation": [
+            0,
+            0,
+            -12.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -23,
+                -0.68668,
+                12.69495
+              ],
+              "size": [
+                2,
+                15,
+                2
+              ],
+              "pivot": [
+                -22,
+                10.31332,
+                13.69495
+              ],
+              "rotation": [
+                -90,
+                -85,
+                90
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "leg3",
+          "parent": "table",
+          "pivot": [
+            -22,
+            13.8,
+            -14
+          ],
+          "rotation": [
+            0,
+            0,
+            -12.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -23,
+                -0.67336,
+                -14.38991
+              ],
+              "size": [
+                2,
+                15,
+                2
+              ],
+              "pivot": [
+                -22,
+                6.82664,
+                -13.38991
+              ],
+              "rotation": [
+                90,
+                -85,
+                -90
+              ],
+              "uv": [
+                0,
+                0
+              ],
+              "mirror": true
+            }
+          ]
+        },
+        {
+          "name": "leg4",
+          "parent": "table",
+          "pivot": [
+            22,
+            13.8,
+            -14
+          ],
+          "rotation": [
+            0,
+            0,
+            12.5
+          ],
+          "cubes": [
+            {
+              "origin": [
+                21,
+                -0.67336,
+                -14.38991
+              ],
+              "size": [
+                2,
+                15,
+                2
+              ],
+              "pivot": [
+                22,
+                6.82664,
+                -13.38991
+              ],
+              "rotation": [
+                90,
+                85,
+                90
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
