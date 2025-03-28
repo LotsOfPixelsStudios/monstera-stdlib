@@ -150,7 +150,7 @@ abstract class VehicleImpl(
                     damageSensor {
                         trigger {
                             cause = DamageType.ALL
-                            dealsDamage = false
+                            dealsNoDamage()
                             if (
                                 (this@VehicleImpl.dropBehaviour == FurnitureDropBehaviour.CAN_PICKUP
                                         || this@VehicleImpl.dropBehaviour == FurnitureDropBehaviour.CUSTOM_LOOT)
