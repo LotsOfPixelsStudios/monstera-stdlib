@@ -206,7 +206,7 @@ abstract class NPCImpl(
                     if (invincible) {
                         damageSensor {
                             trigger {
-                                dealsDamage = false
+                                dealsNoDamage()
                                 cause = DamageType.ALL
                             }
                         }
