@@ -9,7 +9,7 @@ group = "com.lotsofpixelsstudios"
 version = System.getenv("GITHUB_REF")?.removePrefix("refs/tags/") ?: "0.1-local"   //use tag name as version
 
 dependencies {
-    implementation("com.lotsofpixelsstudios:monstera:0.5.6")
+    implementation("com.lotsofpixelsstudios:monstera:0.5.7")
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib")
 
