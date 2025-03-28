@@ -185,7 +185,7 @@ abstract class FurnitureImpl(
                     damageSensor {
                         trigger {
                             cause = DamageType.ALL
-                            dealsDamage = false
+                            dealsNoDamage()
                             if (
                                 (this@FurnitureImpl.dropBehaviour == FurnitureDropBehaviour.CAN_PICKUP
                                         || this@FurnitureImpl.dropBehaviour == FurnitureDropBehaviour.CUSTOM_LOOT)
