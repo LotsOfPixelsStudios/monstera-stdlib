@@ -40,7 +40,7 @@ class BreakableFurniture(private val entity: Entity, private val addon: Addon) {
         this.tableName = table
     }
 
-    fun build() {
+    fun applyToEntity() {
         entity.apply {
             behaviour {
                 animation("break") {

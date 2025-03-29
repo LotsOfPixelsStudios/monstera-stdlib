@@ -113,8 +113,9 @@ abstract class FurnitureImpl(
      * ```
      */
     override fun breakable(data: BreakableFurniture.() -> Unit) {
-        BreakableFurniture(unsafe.entity, addon).apply(data).build()
+        BreakableFurniture(unsafe.entity, addon).apply(data).applyToEntity()
         this.dropBehaviour = FurnitureDropBehaviour.CUSTOM_LOOT
+        this.unsafe.canBreak = true
     }
 
     internal fun build() {
